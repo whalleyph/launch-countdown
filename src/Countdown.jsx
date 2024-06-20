@@ -13,7 +13,6 @@ function Countdown() {
     <div className="countdown-content">
       <div>
         <h2>{Count > 1 ? Count : Emoji}</h2>
-        <h2>Debug: {Count}</h2>
       </div>
       <div className="buttons">
         <button onClick={decrement} className="button">

@@ -7,6 +7,8 @@ function App() {
     <>
       <h1>Launch Countdown</h1>
       <Countdown />
+      <Countdown />
+      <Countdown />
     </>
   )
 }
