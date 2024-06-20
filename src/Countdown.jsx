@@ -2,14 +2,14 @@ import React from "react";
 
 function Countdown() {
   const [Count, setCount] = React.useState(5);
-  
+
   const countdownDisplay = () => {
     if (Count > 1) {
-      return Count
+      return Count;
     } else if (Count === 1) {
-      return "👩🏽‍🚀"
+      return "👩🏽‍🚀";
     } else {
-      return "🚀"
+      return "🚀";
     }
   };
 
